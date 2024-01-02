@@ -1,0 +1,59 @@
+{
+  "name": "lozemc/simple-google-sheets",
+  "description": "An easy way to manage data in Google Sheets using PHP",
+  "version": "1.0.0",
+  "keywords": [
+    "php",
+    "google",
+    "sheets",
+    "spreadsheets",
+    "google sheets",
+    "google spreadsheets",
+    "google-sheets",
+    "wrapper",
+    "library",
+    "excel",
+    "spreadsheet",
+    "google-sheets-api",
+    "sheets-api",
+    "google-api-client",
+    "helpers-library",
+    "google-api-v4",
+    "table",
+    "sheet"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Lozemc\\": "src/"
+    }
+  },
+  "homepage": "https://github.com/lozemc/",
+  "authors": [
+    {
+      "name": "Lozemc",
+      "email": "lozemc@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.33",
+    "google/apiclient": "^2.15.0"
+  },
+  "scripts": {
+    "pre-autoload-dump": "Google\\Task\\Composer::cleanup"
+  },
+  "extra": {
+    "google/apiclient-services": [
+      "Sheets"
+    ]
+  },
+  "config": {
+    "platform": {
+      "php": "8.2"
+    }
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.10"
+  }
+}
