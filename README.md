@@ -8,7 +8,7 @@ interface for working with Google Sheets.
 
 ## Installation
 
-Require the package using [Composer](https://getcomposer.org/):
+Require the package using [Composer](https://repo.packagist.org/packages/lozemc/simple-google-sheets):
 
 ```bash
 composer require lozemc/simple-google-sheets
@@ -134,12 +134,14 @@ print_r($rows);
 
 // Get rows from a specific range in another sheet
 $rows = $table->set_sheet('Sheet2')->get_rows('B10:C20');
+
 print_r($rows);
 
 
 // Update data in a specific range
 $table->update([['New value']], 'B10');
 $row = $table->get_rows('B10');
+
 print_r($row);
 
 ```
