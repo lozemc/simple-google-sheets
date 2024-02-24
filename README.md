@@ -8,7 +8,7 @@ interface for working with Google Sheets.
 
 ## Installation
 
-Require the package using [Composer](https://repo.packagist.org/packages/lozemc/simple-google-sheets):
+Require the package using [Composer](https://packagist.org/packages/lozemc/simple-google-sheets):
 
 ```bash
 composer require lozemc/simple-google-sheets
