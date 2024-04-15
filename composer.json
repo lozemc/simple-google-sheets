@@ -1,7 +1,7 @@
 {
   "name": "lozemc/simple-google-sheets",
   "description": "An easy way to manage data in Google Sheets using PHP",
-  "version": "1.0.0",
+  "version": "1.1",
   "keywords": [
     "php",
     "google",
@@ -50,10 +50,7 @@
   },
   "config": {
     "platform-check": false,
-    "optimize-autoloader": true,
-    "platform": {
-      "php": "8.2"
-    }
+    "optimize-autoloader": true
   },
   "require-dev": {
     "phpstan/phpstan": "^1.10"
