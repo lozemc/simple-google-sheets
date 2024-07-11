@@ -1,7 +1,7 @@
 {
   "name": "lozemc/simple-google-sheets",
   "description": "An easy way to manage data in Google Sheets using PHP",
-  "version": "1.1",
+  "version": "1.1.1",
   "keywords": [
     "php",
     "google",
